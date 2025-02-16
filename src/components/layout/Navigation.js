@@ -4,6 +4,8 @@ import Link from 'next/link'
 import { useState } from 'react'
 import SVG from 'react-inlinesvg'
 
+import LanguageSwitcher from '@/components/LanguageSwitcher'
+
 const NavItem = ({ children, href }) => {
   return (
     <li className="w-full md:w-auto md:mr-6">
@@ -25,7 +27,10 @@ export default function Navigation() {
       <div className="container">
         <div className="md:flex py-6 justify-between">
           <div className="w-full flex justify-between md:w-1/2">
-            <p className="font-bold text-gray-800 text-2xl">Next Starter</p>
+            <div>
+              <p className="font-bold text-gray-800 text-2xl">Next Starter</p>
+              <LanguageSwitcher />
+            </div>
             <div className="md:hidden block">
               <button
                 type="button"

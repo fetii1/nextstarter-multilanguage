@@ -2,6 +2,7 @@ import './globals.css'
 
 import clsx from 'clsx'
 import { Poppins } from 'next/font/google'
+import { useLocale } from 'next-intl'
 import Navigation from 'src/components/layout/Navigation'
 import { mergeMetaData } from 'src/utils/seo'
 
@@ -11,9 +12,10 @@ const poppins = Poppins({
   variable: '--font-poppins',
 })
 
-export default async function Layout({ children }) {
+export default function Layout({ children }) {
+  const locale = useLocale()
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang={locale} suppressHydrationWarning>
       {/* Favicons */}
       <link rel="icon" href="/favicons/fav-32.ico" sizes="32x32" />
       <link rel="icon" href="/favicons/fav-57.ico" sizes="57x57" />

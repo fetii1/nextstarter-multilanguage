@@ -1,0 +1,20 @@
+{
+  "Home": {
+    "title": "NextJS i18n Tutorial",
+    "description": "Albanian | Shqip"
+  },
+  "Step1": {
+    "title": "Hapi 1 Titulli",
+    "EXPLANATION_PARAGRAPH1": "lorem ipsum"
+  },
+  "Step2": {
+    "title": "Hapi 2 Titulli",
+    "EXPLANATION_PARAGRAPH1": "lorem ipsum",
+    "EXPLANATION_PARAGRAPH2": "lorem ipsum",
+    "EXPLANATION_PARAGRAPH3": "lorem ipsum"
+  },
+  "About": {
+    "title": "Rreth",
+    "description": "lorem ipsum"
+  }
+}

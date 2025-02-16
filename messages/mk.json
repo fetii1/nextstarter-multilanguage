@@ -1,0 +1,24 @@
+{
+  "Home": {
+    "title": "NextJS i18n Tutorial",
+    "description": "Macedonian | Македонски"
+  },
+  "Step1": {
+    "title": "Korak 1 Naslov",
+    "EXPLANATION_PARAGRAPH1": "lorem ipsum"
+  },
+  "Step2": {
+    "title": "Korak 2 Naslov",
+    "EXPLANATION_PARAGRAPH1": "lorem ipsum",
+    "EXPLANATION_PARAGRAPH2": "lorem ipsum",
+    "EXPLANATION_PARAGRAPH3": "lorem ipsum"
+  },
+  "About": {
+    "title": "За",
+    "description": "lorem ipsum"
+  },
+  "about": {
+    "title": "За Нас",
+    "description": "Ова е за нас страната"
+  }
+}
