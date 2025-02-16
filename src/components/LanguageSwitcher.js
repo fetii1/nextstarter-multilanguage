@@ -11,7 +11,7 @@ export default function LanguageSwitcher() {
   // Define available languages
   const languages = [
     { code: 'en', label: 'English' },
-    { code: 'al', label: 'Deutsch' },
+    { code: 'al', label: 'Albanian' },
     { code: 'mk', label: 'Macedonian' },
     // Add more languages as needed
   ]
