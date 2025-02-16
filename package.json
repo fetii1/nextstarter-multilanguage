@@ -1,0 +1,43 @@
+{
+  "name": "nextstarter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint --fix .",
+    "format": "prettier '{components,content,pages,styles}/**/*.{css,js}' --write",
+    "pre-commit": "lint-staged && pretty-quick --staged",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "next": "^15.1.6",
+    "postcss": "8.5.1",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "tailwindcss": "^4.0.3"
+  },
+  "devDependencies": {
+    "clsx": "^2.1.0",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "15.1.6",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-react": "7.33.2",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-simple-import-sort": "10.0.0",
+    "@tailwindcss/postcss": "^4.0.0-beta.8",
+    "husky": "^9.0.10",
+    "lint-staged": "15.2.2",
+    "prettier": "^3.2.5",
+    "pretty-quick": "4.0.0",
+    "react-inlinesvg": "4.1.8",
+    "tailwind-merge": "^2.2.1"
+  },
+  "lint-staged": {
+    "*.js": "eslint --fix"
+  }
+}
