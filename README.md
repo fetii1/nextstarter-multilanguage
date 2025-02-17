@@ -2,7 +2,13 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First run
+
+```
+npm install
+```
+
+then, run the development server:
 
 ```bash
 npm run dev
@@ -26,7 +32,7 @@ For easier usage you can use the green **Use this template** button, but below a
 
 ```bash
 # Here we clone the project and give it a new folder name
-git clone https://github.com/lucky-media/nextstarter new_project_name
+git clone https://github.com/fetii1/nextstarter-multilanguage new_project_name
 
 # Remove the git history folder
 rm -rf .git
@@ -37,7 +43,7 @@ git add .
 git commit -m "Initial Commit"
 
 # Please change this url to the correct one for your project
-git remote add origin https://github.com/lucky-media/new_project_name
+git remote add origin https://github.com/your_github/new_project_name
 git push -u origin main
 ```
 
